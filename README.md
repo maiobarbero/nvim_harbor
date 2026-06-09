@@ -56,11 +56,16 @@ return {
 ## Usage & Commands
 Run these commands inside any project directory that contains a valid docker-compose setup:
 
-`:HarborStart`, Spin up a specific service,Background Job
+`:HarborStart`, Spin up a specific service,Background 
+
 `:HarborStop`, Stop a running service,Background Job
+
 `:HarborRebuild`, "Force rebuild, recreate, and start a service",Background Job
+
 `:HarborDown`, Instantly stop and remove container volumes,Background Job
+
 `:HarborLogs`, Tail live logs for the service,Interactive Split Terminal
+
 `:HarborExec`, Execute an interactive shell (bash or sh),Interactive Split Terminal
 
 >[!Note] Background jobs utilize standard Neovim notifications to safely alert you with a Success or Failed toast message as soon as the Docker engine completes the instruction.
